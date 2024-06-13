@@ -1,9 +1,17 @@
 # Posture Corrector
-<!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --> 
+Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+
+You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+```HTML 
+<!--- This is an HTML comment in Markdown -->
+<!--- Anything between these symbols will not render on the published site -->
+```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Vihaan D | Irvington High Schoool | Mechanical Engineering | Incoming Sophomore
+
+**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](Vihaan_D.jpg)
   
@@ -66,33 +74,32 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Retro Arcade Console
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RREYq2UIQs?si=D5jkpsL6lmQbcA0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-**Summary:** 
-I chose to make a Retro Arcade Console as my starter project. This project makes use of a variety of different components which all work together so that the user can play five fun games. I soldered all the components together on the circuit board and then finally connected the battery wire to the circuit board. There are directional butttons, a start button, a stop button, and an on/off button. The button the user presses gets inputted into the sytem and gets outputed onto the LED screen in the form of a video game. 
+Summary: 
+I chose to make a Retro Arcade Console as my starter project. This project makes use of a variety of different components which all work together so that the user can play five fun games. I soldered all the components together on the circuit board and then finally connected the battery wire to the circuit board. There are directional butttons, a start button, a stop button, and an on/off button. After the user presses one of these buttons, it gets inputed into the sytem and it gets outputed onto the LED screen. 
 
-**Components Used:**
-Buzzer
-Electric capacitor
-Micro USB
-Power cable
-Self-switch
-Self-switch cap
-Digiron display
-IC chip
-LED dot matrix module
-Button
-Button cap
-PCB
-M3x5mm Screw
-M3x8mm Screw
-Double-pass M3x9 cm Copper column
-Single-head 5+6mm Hexagonal column
-Battery cse
-Acrylic shell
+Components Used:
+- Buzzer
+- Electric capacitor
+- Micro USB
+- Power cable
+- Self-switch
+- Self-switch cap
+- Digitron display
+- IC chip
+- LED dot matrix module
+- Button
+- Button cap
+- PCB
+- M3x5mm Screw
+- M3x8mm Screw
+- Double-pass M3x9 cm Copper column
+- Single-head 5+6mm Hexagonal column
+- Battery case
+- Acrylic shell
 
+The digitron display or the 7-segement display is used on my Retro Arcade Console as a score board. What's cool about this component is that only seven segments are needed to make all numbers from 0-9. With the help of the scoreboard, the user knows their score when playing a game. Additionally, the game even saves the user's high score so whenever the user goes back to the game they want to play, they can see what their high score is. Another major component in my Retro Arcade Console is the battery case. This is cruicial so that the user can play on the console whenever and wherever they want. The batteries provide power to the console and are essential in order for all of the components to work. 
 
-
-
-**Challenges Faced:**
+Challenge Faced
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 # Other Resources/Examples

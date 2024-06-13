@@ -66,10 +66,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Starter Project: Retro Arcade Console
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RREYq2UIQs?si=D5jkpsL6lmQbcA0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-**Summary:** 
+## **Summary:** 
 I chose to make a Retro Arcade Console as my starter project. This project makes use of a variety of different components which all work together so that the user can play five fun games. I soldered all the components together on the circuit board and then finally connected the battery wire to the circuit board. There are directional butttons, a start button, a stop button, and an on/off button. The button the user presses gets inputted into the sytem and gets outputted onto the LED screen in the form of an aracde game. 
 
-**Components Used:**
+## **Components Used:**
 - Buzzer
 - Electric capacitor
 - Micro USB
@@ -95,7 +95,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current.
 
-**Challenges Faced:**
+## **Challenges Faced:**
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 # Other Resources/Examples

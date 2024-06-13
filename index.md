@@ -68,10 +68,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 # Retro Arcade Console
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RREYq2UIQs?si=D5jkpsL6lmQbcA0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-Summary: 
+**Summary:** 
 I chose to make a Retro Arcade Console as my starter project. This project makes use of a variety of different components which all work together so that the user can play five fun games. I soldered all the components together on the circuit board and then finally connected the battery wire to the circuit board. There are directional butttons, a start button, a stop button, and an on/off button. After the user presses one of these buttons, it gets inputed into the sytem and it gets outputed onto the LED screen. 
 
-Components Used:
+**Components Used:**
 Buzzer
 Electric capacitor
 Micro USB
@@ -91,7 +91,7 @@ Single-head 5+6mm Hexagonal column
 Battery cse
 Acrylic shell
 
-Challenges Faced
+**Challenges Faced**
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 # Other Resources/Examples

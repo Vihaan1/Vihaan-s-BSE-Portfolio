@@ -5,8 +5,6 @@
 |:--:|:--:|:--:|:--:|
 | Vihaan D | Irvington High Schoool | Mechanical Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](Vihaan_D.jpg)
   
 <!--- # Final Milestone
@@ -91,7 +89,7 @@ Single-head 5+6mm Hexagonal column
 Battery cse
 Acrylic shell
 
-**Challenges Faced**
+**Challenges Faced:**
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 # Other Resources/Examples

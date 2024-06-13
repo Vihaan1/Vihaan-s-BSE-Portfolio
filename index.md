@@ -5,7 +5,7 @@
 |:--:|:--:|:--:|:--:|
 | Vihaan D | Irvington High Schoool | Mechanical Engineering | Incoming Sophomore
 
-![Headstone Image](Vihaan_D.jpg)
+![Headstone Image](VihaanHeadshot.png)
   
 <!--- # Final Milestone
 

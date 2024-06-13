@@ -93,6 +93,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 
 ![Headstone Image](Button_Switch_Basics.gif)
 
+Figure 1
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current.
 
 ## Challenges Faced:

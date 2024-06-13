@@ -91,6 +91,8 @@ I chose to make a Retro Arcade Console as my starter project. This project makes
   
 The digitron display or the 7-segement display is used on my Retro Arcade Console as a score board. What's cool about this component is that only seven segments are needed to make all numbers from 0-9. With the help of the scoreboard, the user knows their score when playing a game. Additionally, the game even saves the user's high score so whenever the user goes back to the game they want to play, they can see what their high score is. Another major component in my Retro Arcade Console is the battery case. This is cruicial so that the user can play on the console whenever and wherever they want. The batteries provide power to the console and are essential in order for all of the components to work. 
 
+![Headstone Image](Button_and_Switch_Basics.gif)
+
 **Challenges Faced:**
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 

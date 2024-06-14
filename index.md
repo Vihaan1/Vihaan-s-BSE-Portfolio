@@ -1,4 +1,6 @@
 # **Posture Corrector**
+My main project is a posture corrector that notifies the user if they are sitting in a bad posture. The user will sit on a deflated yoga ball with a flex sensor that tracks if they are slouching or in a bad posture based on the pressure the user exerts on the sensor. If the user applies a lot of pressure on the sensor, the LED strip will light up the user will also get a phone notification to fix their posture. 
+
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --> 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |

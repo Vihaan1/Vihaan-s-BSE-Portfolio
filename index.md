@@ -48,19 +48,43 @@ For your first milestone, describe what your project is and how you plan to buil
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 
-<!--- # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+# Code
+<!--- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```c++
+#include <Adafruit_NeoPixel.h>
+
+#define LED_PIN     6      // Pin where the data line is connected
+#define LED_COUNT   60     // Number of LEDs in the strip
+#define FLEX_PIN    A0     // Analog pin for flex sensor
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  strip.begin();           // Initialize the strip
+  strip.show();            // Turn off all LEDs
+  Serial.begin(9600);      // Initialize serial communication for debugging
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  int flexValue = analogRead(FLEX_PIN);
+  Serial.print("Sensor: ");               // Read the flex sensor value
+  Serial.println(flexValue);             // Print the value to the Serial Monitor
 
+  if (flexValue < 100) {
+    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <20
+  } else {
+    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >=20
+  }
+
+  delay(1000);  // Small delay to stabilize the readings
+}
+
+void setStripColor(uint32_t color) {
+  for(int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, color);   // Set color of each LED
+  }
+  strip.show();                      // Update strip to show the color
 }
 ```
 

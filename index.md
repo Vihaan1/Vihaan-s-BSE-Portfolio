@@ -67,8 +67,8 @@ void setup() {
 }
 
 void loop() {
-  int flexValue = analogRead(FLEX_PIN);
-  Serial.print("Sensor: ");               // Read the flex sensor value
+  int flexValue = analogRead(FLEX_PIN);  // Read the flex sensor value
+  Serial.print("Sensor: ");               
   Serial.println(flexValue);             // Print the value to the Serial Monitor
 
   if (flexValue < 100) {

@@ -36,13 +36,10 @@ My main project is the posture corrector. This project consists mainly of a flex
 
 <img src="LEDCircuit.png" width="500" height="250"> 
 **Figure 2** 
-The diagram above depicts a schematic of a circuit that lights up a LED strip. There are jumper wires that connect to the analog, ground, and integer pins. 
-- The data pin of the Neopixel strip is connected to digital pin  6 of the Arduino board.
-- The power pin of the Neopixel strip is connected to the 5v pin of the Arduino board.
-- The ground pin of the Neopixel strip is connected to the ground pin of the Arduino board.
+The diagram above depicts a schematic of a circuit that lights up a LED strip. There are jumper wires that connect to several pins on the arduino. The data pin of the Neopixel strip is connected to the digital pin 6 of the Arduino board. The power pin is connected to the 5v pin, and the ground pin is connected to the ground pin of the Arduino board.  
 
 ## Challenge Faced
-One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to turn on and change colors, I faced several errors. It took my a long time to debug my code and find the errors, but eventually I was able to get it working. 
+One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to change colors depending on the value of the flex sensor, I faced several errors in the Arduino IDE. It took a lot of time and effort to debug my code and find the errors, but eventually I was able to get it working. 
 
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
 

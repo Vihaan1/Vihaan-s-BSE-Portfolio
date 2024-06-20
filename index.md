@@ -35,7 +35,10 @@ For your second milestone, explain what you've worked on since your previous mil
 My main project is the posture corrector. This project consists of a flex sensor on a breadboard and an LED light strip. There are three jumper wires on the breadboard that connect to an analog pin, ground pin, and integer pin on the arduino to complete the circuit. I made code using the Arduino IDE that outputs the flex sensor value on my computer. Afterwards, I added an LED light strip to the arduino. To  code the light strip, I used the Adafruit_NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends, and it turns green if the flex sensor remains straight. This way, when the user sits on the yoga ball that has the flex sensor on it, they can see if their posture is good or bad depending on the color the LED strip displays. 
 
 <img src="LEDCircuit.png" width="500" height="250"> 
-
+**Figure 2** As you can see in the figure above, there is a schematic of circuit that lights up a LED strip. There are jumper wires that connect to the analog, ground, and integer pins. 
+- The data pin of the Neopixel strip is connected to digital pin  6 of the Arduino board.
+- The power pin of the Neopixel strip is connected to the 5v pin of the Arduino board.
+- The ground pin of the Neopixel strip is connected to the ground pin of the Arduino board.
 
 ## Challenge Faced
 One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to turn on and change colors, I faced several errors. It took my a long time to debug my code and find the errors, but eventually I was able to get it working. 

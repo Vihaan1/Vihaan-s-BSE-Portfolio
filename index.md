@@ -38,7 +38,11 @@ My main project is the posture corrector. This project consists mainly of a flex
 <img src="LEDCircuit.png" width="500" height="250"> 
 
 **Figure 2** 
-The diagram above depicts a schematic of a circuit that lights up a LED strip. There are jumper wires that connect to several pins on the arduino. The data pin of the Neopixel strip is connected to the digital pin 6 of the Arduino board. The power pin is connected to the 5v pin, and the ground pin is connected to the ground pin of the Arduino board.  
+This image shows a basic circuit setup with an Arduino Uno and a strip of WS2812B LEDs. Three wires connect the Arduino to the LED strip:
+1. The black wire goes from the GND pin on the Arduino to the GND pin on the LED strip.
+2. The pink wire goes from the 5V pin on the Arduino to the 5V pin on the LED strip.
+3. The orange wire goes from digital pin 6 on the Arduino to the data input (DIN) pin on the LED strip.
+This setup allows the Arduino to control the LEDs, changing their colors and brightness. The Arduino gets power through the USB cable, which also allows programs to be uploaded to it from a computer.
 
 ## Challenges Faced
 One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to change colors depending on the value of the flex sensor, I faced several errors in the Arduino IDE. It took a lot of time and effort to debug my code and find the errors, but eventually I was able to get it working and the LED lights turned on. Another challenge I faced was getting the flex sensor to get consistent. The values the flex sensor was outputting onto the Serial Monitor kept changing and weren't making much sense. I found an error in my code, and was able to correct it. This way,  when the flex sensor is straight the value outputted onto the Serial Monitor stays above 100. On the other hand, when the flex sensor bends, the value outputted onto the Serial Monitor stays below 100.  

@@ -34,6 +34,11 @@ For your second milestone, explain what you've worked on since your previous mil
 ## Summary
 My main project is the posture corrector. This project consists of a flex sensor on a breadboard and an LED light strip. There are three jumper wires on the breadboard that connect to an analog pin, ground pin, and integer pin on the arduino to complete the circuit. I made code using the Arduino IDE that outputs the flex sensor value on my computer. Afterwards, I added an LED light strip to the arduino. To  code the light strip, I used the Adafruit_NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends, and it turns green if the flex sensor remains straight. This way, when the user sits on the yoga ball that has the flex sensor on it, they can see if their posture is good or bad depending on the color the LED strip displays. 
 
+
+
+## Challenge Faced
+One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to turn on and change colors, I faced several errors. It took my a long time to debug my code and find the errors, but eventually I was able to get it working. 
+
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
 
 - An explanation about the different components of your project and how they will all integrate together
@@ -134,7 +139,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 **Figure 1**
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current. On my starter project, when a button is pressed, the LED board lights up in the same manner.  
 
-## Challenges Faced:
+## Challenge Faced:
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 <!--- # Other Resources/Examples

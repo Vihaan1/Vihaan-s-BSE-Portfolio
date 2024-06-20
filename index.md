@@ -1,4 +1,4 @@
-# **Posture Corrector**
+# Posture Corrector
 My main project is a posture corrector that notifies the user if they are sitting in a bad posture. The user will sit on a deflated yoga ball with a flex sensor that tracks if they are slouching or in a bad posture based on the pressure the user exerts on the sensor. If the user applies a lot of pressure on the sensor, the LED strip will light up the user will also get a phone notification to fix their posture. 
 
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --> 
@@ -31,6 +31,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
+## Summary
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far

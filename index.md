@@ -32,15 +32,17 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 ## Summary
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+My main project is the posture corrector. This project consists of a flex sensor on a breadboard and an LED light strip. There are three jumper wires on the breadboard that connect to an analog pin, ground pin, and integer pin on the arduino to complete the circuit. I made code using the Arduino IDE that outputs the flex sensor value on my computer. Afterwards, I added an LED light strip to the arduino. To  code the light strip, I used the Adafruit_NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends, and it turns green if the flex sensor remains straight. This way, when the user sits on the yoga ball that has the flex sensor on it, they can see if their posture is good or bad depending on the color the LED strip displays. 
+
+<!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
+
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- What your plan is to complete your project -->
 
 # Schematics 
 ### Flex Sensor: 
-
 <img src="FlexSensorSchematic.png" width="400" height="400"> 
 
 ### Flex Sensor with LED Lights: 

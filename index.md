@@ -34,13 +34,14 @@ For your second milestone, explain what you've worked on since your previous mil
 ## Summary
 My main project is the posture corrector. This project consists mainly of a flex sensor and LED light strip. I connected the flex sensor to the breadboard and used three jumper wires that connect to an analog pin, ground pin, and integer pin on the arduino to complete the circuit. Additionally, I created code using the Arduino IDE that reads the value of the flex sensor and outputs in on my computer. Afterwards, I added an LED light strip to the arduino. To code the LED light strip, I used the Adafruit NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends (outputs a higher value), and it turns green if the flex sensor remains straight (outputs a lower value). This way, when the user sits on the yoga ball that has the flex sensor attached to it, they can see if their posture is good or bad depending on the color the LED strip displays. 
 
+## Diagram
 <img src="LEDCircuit.png" width="500" height="250"> 
 
 **Figure 2** 
 The diagram above depicts a schematic of a circuit that lights up a LED strip. There are jumper wires that connect to several pins on the arduino. The data pin of the Neopixel strip is connected to the digital pin 6 of the Arduino board. The power pin is connected to the 5v pin, and the ground pin is connected to the ground pin of the Arduino board.  
 
-## Challenge Faced
-One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to change colors depending on the value of the flex sensor, I faced several errors in the Arduino IDE. It took a lot of time and effort to debug my code and find the errors, but eventually I was able to get it working. 
+## Challenges Faced
+One challenge I faced while working on my first milestone was coding the LED strip. While I was coding the lights to change colors depending on the value of the flex sensor, I faced several errors in the Arduino IDE. It took a lot of time and effort to debug my code and find the errors, but eventually I was able to get it working and the LED lights turned on. Another challenge I faced was getting the flex sensor to get consistent. The values the flex sensor was outputting onto the Serial Monitor kept changing and weren't making much sense. I found an error in my code, and was able to correct it. This way,  when the flex sensor is straight the value outputted onto the Serial Monitor stays above 100. On the other hand, when the flex sensor bends, the value outputted onto the Serial Monitor stays below 100.  
 
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
 
@@ -142,7 +143,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 **Figure 1**
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current. On my starter project, when a button is pressed, the LED board lights up in the same manner.  
 
-## Challenge Faced:
+## Challenges Faced:
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 <!--- # Other Resources/Examples

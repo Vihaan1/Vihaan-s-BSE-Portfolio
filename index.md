@@ -42,6 +42,7 @@ This image shows a basic circuit setup with an Arduino Uno and a strip of WS2812
 1. The black wire goes from the GND pin on the Arduino to the GND pin on the LED strip.
 2. The pink wire goes from the 5V pin on the Arduino to the 5V pin on the LED strip.
 3. The orange wire goes from digital pin 6 on the Arduino to the data input (DIN) pin on the LED strip.
+
 This setup allows the Arduino to control the LEDs, changing their colors and brightness. The Arduino gets power through the USB cable, which also allows programs to be uploaded to it from a computer.
 
 ## Challenges Faced

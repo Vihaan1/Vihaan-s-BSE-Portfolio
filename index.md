@@ -35,6 +35,7 @@ For your second milestone, explain what you've worked on since your previous mil
 My main project is the posture corrector. This project consists mainly of a flex sensor and LED light strip. I connected the flex sensor to the breadboard and used three jumper wires that connect to an analog pin, ground pin, and integer pin on the arduino to complete the circuit. Additionally, I created code using the Arduino IDE that reads the value of the flex sensor and outputs in on my computer. Afterwards, I added an LED light strip to the arduino. To code the LED light strip, I used the Adafruit NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends (outputs a higher value), and it turns green if the flex sensor remains straight (outputs a lower value). This way, when the user sits on the yoga ball that has the flex sensor attached to it, they can see if their posture is good or bad depending on the color the LED strip displays. 
 
 <img src="LEDCircuit.png" width="500" height="250"> 
+
 **Figure 2** 
 The diagram above depicts a schematic of a circuit that lights up a LED strip. There are jumper wires that connect to several pins on the arduino. The data pin of the Neopixel strip is connected to the digital pin 6 of the Arduino board. The power pin is connected to the 5v pin, and the ground pin is connected to the ground pin of the Arduino board.  
 
@@ -49,11 +50,11 @@ One challenge I faced while working on my first milestone was coding the LED str
 - What your plan is to complete your project -->
 
 # Schematics 
-### Flex Sensor: 
-<img src="FlexSensorSchematic.png" width="400" height="400"> 
-
 ### Flex Sensor with LED Lights: 
 <img src="FlexSensorAndLEDSchematic.png" width="1000" height="325"> 
+
+### Flex Sensor: 
+<img src="FlexSensorSchematic.png" width="400" height="400"> 
 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 

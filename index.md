@@ -65,9 +65,6 @@ One challenge I faced while working on my first milestone was coding the LED str
 ### Flex Sensor with LED Lights: 
 <img src="FlexSensorAndLEDSchematic.png" width="1000" height="325"> 
 
-### Flex Sensor: 
-<img src="FlexSensorSchematic.png" width="400" height="400"> 
-
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 
@@ -95,9 +92,9 @@ void loop() {
   Serial.println(flexValue);             // Print the value to the Serial Monitor
 
   if (flexValue < 100) {
-    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <20
+    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <100
   } else {
-    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >=20
+    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >=100
   }
 
   delay(1000);  // Small delay to stabilize the readings

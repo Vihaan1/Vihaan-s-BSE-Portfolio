@@ -32,7 +32,12 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 ## Summary
-**Figure 3** To connect the flex sensor to the Arduino, I created a voltage divider with the flex sensor and a fixed resistor. The flex sensor is a type of resistor that changes its resistance based on how much it is bent. One end of the flex sensor is connected to the 5v pin on the arduino and the point between these two resistors is connected to the AnalogRead pin on the Arduino. Ohm's Law (V = I × R) helps calculate the current through the circuit and the voltage across the fixed resistor. As the flex sensor bends, its resistance increases, decreasing the current and the voltage at the AnalogRead pin on the Arduino. This change in voltage, determined by the voltage divider formula​​, allows the Arduino to measure and read how much the flex sensor is bending. 
+My main project is the posture corrector. This project consists mainly of a flex sensor and LED light strip. 
+
+<img src="VoltageDividerDiagram.png" width="500" height="250"> 
+
+**Figure 3** 
+To connect the flex sensor to the Arduino, I created a voltage divider with the flex sensor and a fixed resistor. The flex sensor is a type of resistor that changes its resistance based on how much it is bent. One end of the flex sensor is connected to the 5v pin on the arduino and the point between these two resistors is connected to the AnalogRead pin on the Arduino. Ohm's Law (V = I × R) helps calculate the current through the circuit and the voltage across the fixed resistor. As the flex sensor bends, its resistance increases, decreasing the current and the voltage at the AnalogRead pin on the Arduino. This change in voltage, determined by the voltage divider formula​​, allows the Arduino to measure and read how much the flex sensor is bending. 
 
 Additionally, I added an LED light strip to the arduino. To code the LED light strip, I used the Adafruit NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. The LED strip turns red if the flex sensor bends (outputs a higher value), and it turns green if the flex sensor remains straight (outputs a lower value). This way, when the user sits on the yoga ball that has the flex sensor attached to it, they can see if their posture is good or bad depending on the color the LED strip displays. 
 

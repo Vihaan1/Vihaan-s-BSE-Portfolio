@@ -65,6 +65,7 @@ One challenge I faced while working on my first milestone was coding the LED str
 ### Flex Sensor with LED Lights: 
 <img src="FlexSensorAndLEDSchematic.png" width="1000" height="325"> 
 
+This schematic illustrates a circuit involving an Arduino Uno, a flex sensor, and a strip of NeoPixel LEDs. The flex sensor is connected to a breadboard, with one pin connected to the Arduino's 5V pin and another to an analog input pin (A0) through a resistor. The NeoPixel strip is connected to a digital output pin on the Arduino, with additional connections for power (5V) and ground (GND). This setup allows the Arduino to read the flex sensor's input and control the NeoPixel LEDs based on how much the flex sensor bends. 
 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 

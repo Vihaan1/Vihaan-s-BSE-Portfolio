@@ -34,7 +34,7 @@ For your second milestone, explain what you've worked on since your previous mil
 ## Summary
 My main project is the posture corrector. For my first milestone, I worked on attaching a flex sensor and a LED light strip to a circuit that lights up based on the value of the flex sensor. 
 
-<img src="Voltage_Divider_Diagram.png" width="500" height="250"> 
+<img src="Voltage_Divider_Diagram2.png" width="500" height="250"> 
 
 **Figure 3** 
 To connect the flex sensor to the Arduino, I created a voltage divider with the flex sensor and a fixed resistor. The flex sensor is a type of resistor that changes its resistance based on how much it is bent. One end of the flex sensor is connected to the 5v pin on the arduino and the point between these two resistors is connected to the AnalogRead pin on the Arduino. Ohm's Law (V = I × R) helps calculate the current through the circuit and the voltage across the fixed resistor. As the flex sensor bends, its resistance increases, decreasing the current and the voltage at the AnalogRead pin on the Arduino. This change in voltage, determined by the voltage divider formula​​, allows the Arduino to measure and read how much the flex sensor is bending. 

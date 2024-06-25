@@ -5,7 +5,7 @@ My main project is a posture corrector that notifies the user if they are sittin
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Vihaan D | Irvington High Schoool | Mechanical Engineering | Incoming Sophomore
+| Vihaan D | Irvington High School | Mechanical Engineering | Incoming Sophomore
 
 <!--- ![Headstone Image](VihaanHeadshot.png) -->
 <img src="VihaanHeadshot.png" width="500" height="500"> 

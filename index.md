@@ -32,7 +32,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 ## Summary
-My main project is the posture corrector. This project consists mainly of a flex sensor and LED light strip. 
+My main project is the posture corrector. For my first milestone, I worked on attaching a flex sensor and a LED light strip to a circuit that lights up based on the value of the flex sensor. 
 
 <img src="Voltage_Divider_Diagram.png" width="500" height="250"> 
 
@@ -64,6 +64,7 @@ One challenge I faced while working on my first milestone was coding the LED str
 # Schematics 
 ### Flex Sensor with LED Lights: 
 <img src="FlexSensorAndLEDSchematic.png" width="1000" height="325"> 
+
 
 <!--- Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 

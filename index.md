@@ -21,12 +21,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ug6znjBkHx4?si=Kiblc67JjN4fv6Nt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Summary
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+## Challenges Faced
+I challenge I faced while working on my second milestone 
 
 
 # First Milestone

@@ -25,8 +25,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## Summary
 
 ## Challenges Faced
-I challenge I faced while working on my second milestone 
-
+A challenge I faced 
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
@@ -76,38 +75,53 @@ This schematic illustrates a circuit involving an Arduino Uno, a flex sensor, an
 
 ```c++
 #include <Adafruit_NeoPixel.h>
+#include <SoftwareSerial.h>
 
-#define LED_PIN     6      // Pin where the data line is connected
-#define LED_COUNT   60     // Number of LEDs in the strip
-#define FLEX_PIN    A0     // Analog pin for flex sensor
+#define LED_PIN    6
+#define LED_COUNT  60
+#define FLEX_PIN   A0
+#define BT_RX      10
+#define BT_TX      11
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
+SoftwareSerial BTSerial(BT_RX, BT_TX);
 
 void setup() {
-  strip.begin();           // Initialize the strip
-  strip.show();            // Turn off all LEDs
-  Serial.begin(9600);      // Initialize serial communication for debugging
+  strip.begin();
+  strip.show();
+  Serial.begin(9600);
+  BTSerial.begin(9600);
 }
 
 void loop() {
-  int flexValue = analogRead(FLEX_PIN);  // Read the flex sensor value
-  Serial.print("Sensor: ");               
-  Serial.println(flexValue);             // Print the value to the Serial Monitor
+  int flexValue = analogRead(FLEX_PIN);
+  byte send = 0;
+  Serial.print("Sensor: ");
+  Serial.println(flexValue);
 
-  if (flexValue < 100) {
-    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <100
+  if (flexValue > 80) {
+    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >80
+    BTSerial.write(send);
+    BTSerial.flush();  // Send "Bad" over Bluetooth
+    //Serial.print("0");
+    //Serial.println("0");
   } else {
-    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >=100
+    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <=80
+    send = 1;
+    BTSerial.write(send);
+    BTSerial.flush(); // Send "Good" over Bluetooth
+    // Serial.print("1");
+    // Serial.println("1"); 
   }
 
-  delay(1000);  // Small delay to stabilize the readings
+  delay(1000);
 }
 
 void setStripColor(uint32_t color) {
-  for(int i = 0; i < strip.numPixels(); i++) {
-    strip.setPixelColor(i, color);   // Set color of each LED
+  for (int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, color);
   }
-  strip.show();                      // Update strip to show the color
+  strip.show();
 }
 ```
 

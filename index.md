@@ -126,7 +126,7 @@ void setStripColor(uint32_t color) {
   strip.show();
 }
 ```
-<img src="MITAppInventorCode.png" width="500" height="250"> 
+<img src="MITAppInventorCode.png" width="1000" height="500"> 
 
 
 # Bill of Materials

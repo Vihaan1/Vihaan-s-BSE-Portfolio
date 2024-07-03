@@ -25,7 +25,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ## Summary
 
-<img src="MITAppInventorCode.png" width="500" height="250"> 
 
 ## Challenges Faced
 A challenge I faced 
@@ -127,6 +126,8 @@ void setStripColor(uint32_t color) {
   strip.show();
 }
 ```
+<img src="MITAppInventorCode.png" width="500" height="250"> 
+
 
 # Bill of Materials
 <!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.

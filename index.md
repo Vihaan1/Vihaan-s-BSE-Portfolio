@@ -27,7 +27,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 ## Challenges Faced
-A challenge I faced 
+I faced several challenges while working on my second milestone. One challenge that I had was connecting the app and phone with the bluetooth module. This was a challenging problem because the HC-05 bluetooth module was neither reliable nor consistent. To get the connection working, I had to repair the module to my phone several times and downloaded an app called the Serial Bluetooth Terminal. I also learned what the blinking signals meant on the HC-05 bluetooth module. The module blinks slowly once if you restart it, twice every two seconds if it's paired to something, and constantly blinks if it is in pairing mode. Another challenge that I had was displaying the posture status on my MIT App Inventor app. I resolved this by making a variable called ‘postValue’ that receives the value the byte sends to the app. If it receives “1”, it will display “Posture Status: Good” on the screen and it displays “Posture Status: Bad” if it receives any other value. 
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0MkvHYonFoM?si=55vPkFj9Fgtnr8u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 

@@ -24,6 +24,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ug6znjBkHx4?si=Kiblc67JjN4fv6Nt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
+For my second milestone, I used bluetooth to connect the arduino to my phone. I then made an app on MIT App Inventor that displays if the user's posture is good or bad on the user interface. The bluetooth module sends data from the arduino to the app wirelessly. In order for the app to update in real time, the data needs to be transmitted from the arduino to the app quickly. To do this, I wrote my code so that it sends one byte at a time in order for the app to update in real time. The 'Serial.write' function puts the one byte in the buffer before it fills up, then 'serial.flush', which is the next line in the code, forces that byte to be sent right away. On the MIT app inventor, it reads the byte as either a 0 or 1. The 0 indicates that the user is in a good posture and the 1 indicates that the user is in bad posture.  This allows the data to be received from the phone quickly and accurately.
+
 <img src="HC-05BluetoothModuleSchematic.jpg" width="400" height="250"> 
 
 **Figure 4**

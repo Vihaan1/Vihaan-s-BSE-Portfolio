@@ -16,8 +16,8 @@ My main project is a posture corrector that notifies the user on the mobile phon
 For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 
 <img src="ProtoshieldArduino.png" width="500" height="250"> 
-**Figure 1**
 
+**Figure 1**
 The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
 
 ## Challenges Faced

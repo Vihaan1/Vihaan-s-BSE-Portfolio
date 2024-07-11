@@ -10,13 +10,16 @@ My main project is a posture corrector that notifies the user on the mobile phon
 <!--- ![Headstone Image](VihaanHeadshot.png) -->
 <img src="VihaanHeadshot.png" width="500" height="500"> 
   
-<!--- # Final Milestone
+# Final Milestone
+
+## Summary
+For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE -->
+- What you hope to learn in the future after everything you've learned at BSE
 
 
 

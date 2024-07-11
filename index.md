@@ -16,6 +16,8 @@ My main project is a posture corrector that notifies the user on the mobile phon
 For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 
 ## Challenges Faced
+I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project were soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I missaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I add to get a new proto shield and I resolderd the header pins. I learned to use basking tape this time so that the header pins wouldn't fall out or move around. It worked the next time, and I was able to connect the proto shield onto the Arduino Uno. Another challenge I faced was that even though I soldering all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I was using while soldering the wires wasn't good, so as a result, the saughter wasn't going deep enough in the whole. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone

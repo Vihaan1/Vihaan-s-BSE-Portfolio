@@ -11,7 +11,7 @@ My main project is a posture corrector that notifies the user on the mobile phon
 <img src="VihaanHeadshot.png" width="500" height="500"> 
   
 # Final Milestone
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMdjlEfUCmo?si=qPSNrd0Y0l9mP5I-&amp;start=0&amp;end=81;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KMdjlEfUCmo?si=qPSNrd0Y0l9mP5I-&amp;start=0&amp;end=82;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Summary
 For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 

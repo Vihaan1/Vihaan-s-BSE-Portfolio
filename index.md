@@ -15,20 +15,13 @@ My main project is a posture corrector that notifies the user on the mobile phon
 ## Summary
 For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 
-<img src="ProtoShieldDiagram.png" width="500" height="250"> 
+<img src="ProtoshieldArduino.png" width="500" height="250"> 
 **Figure 1**
-This is a diagram of a protoshield. 
+
+The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
 
 ## Challenges Faced
 I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I added a new proto shield and I resolderd the header pins. I learned to use basking tape this time so that the header pins wouldn't fall out or move around. It worked the next time, and I was able to connect the proto shield onto the Arduino Uno. Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I was using while soldering the wires wasn't good, so as a result, the saughter wasn't going deep enough in the hole. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
-
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
 
 
 # Second Milestone

@@ -15,6 +15,8 @@ My main project is a posture corrector that notifies the user on the mobile phon
 ## Summary
 For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
 
+## Challenges Faced
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE

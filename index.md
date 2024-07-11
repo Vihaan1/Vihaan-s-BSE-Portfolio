@@ -13,12 +13,17 @@ My main project is a posture corrector that notifies the user on the mobile phon
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMdjlEfUCmo?si=qPSNrd0Y0l9mP5I-&amp;start=0&amp;end=82;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Summary
-For my final mlestone, I added notifications to my app if the user's posture is bad. I also soldered all of my components from a breadboard to a protoshield to make my project more permanent. 
+For my final mlestone, I added notifications to my app if the user's posture is bad. To accomplish this, I first downloaded a notification extension on MIT App Inventor. Then, I added code that displays the notification "Bad Posture Detected" on the user's phone if it detects bad posture. Additionally, I also soldered all of my components (solid wires, a ressitor, HC-05 bluetooth module, etc) to a protoshield from a breadboard to make my project more permanent and secure. 
 
 <img src="ProtoshieldArduino.png" width="500" height="250"> 
 
 **Figure 1**
 The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
+
+<img src="PCAppUserInterface.png" width="250" height="500"> 
+
+**Figure 2**
+The image shows the user interface of my Posture Corrector App. The interface features a Bluetooth connectivity option, currently indicating "Not Connected". Below this, the posture status is displayed as "Unknown", suggesting that the app cannot determine the user's posture without a connected device. Additionally, there is a toggle switch for notifications, which is currently turned off. The app is designed to help users monitor and correct their posture through a connected Bluetooth device.
 
 ## Challenges Faced
 I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I added a new proto shield and I resolderd the header pins. I learned to use basking tape this time so that the header pins wouldn't fall out or move around. It worked the next time, and I was able to connect the proto shield onto the Arduino Uno. Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I was using while soldering the wires wasn't good, so as a result, the saughter wasn't going deep enough in the hole. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
@@ -32,7 +37,7 @@ For my second milestone, I used bluetooth to connect the arduino to my phone. I 
 
 <img src="HC-05BluetoothModuleSchematic.jpg" width="400" height="250"> 
 
-**Figure 2**
+**Figure 3**
 The diagram illustrates how to connect an HC-05 Bluetooth module to an Arduino Uno. Specifically, the HC-05's VCC pin connects to the Arduino's 5V pin for power, the GND pin to the Arduino's GND, the TXD (transmit) pin to the Arduino's RX (digital pin 0) for sending data from the HC-05 to the Arduino, and the RXD (receive) pin to the Arduino's TX (digital pin 1) for sending data from the Arduino to the HC-05. This configuration enables Bluetooth communication between the Arduino and other devices.
 
 ## Challenges Faced
@@ -46,7 +51,7 @@ My main project is the posture corrector. For my first milestone, I worked on at
 
 <img src="Voltage_Divider_Diagram2.png" width="500" height="250"> 
 
-**Figure 3** 
+**Figure 4** 
 To connect the flex sensor to the Arduino, I created a voltage divider circuit with a flex sensor and a fixed resistor. The flex sensor is a type of resistor that changes its resistance based on how much it is bent. Flex sensors are often made of conductive rubbery strips between two metal plates, so when the sensor is unbent, the rubbery strip is thick and solid, so it conducts little current between the plates. On the other hand, when the sensor is bent, the strip spreads out and allows more current to pass through, which is detected and fed back to the system to indicate the amount of flex. One end of the flex sensor is connected to the 5v pin on the Arduino and the point between these two resistors is connected to the analog input pin on the Arduino. Ohm's Law (V = IR) helps calculate the current through the circuit and the voltage of the fixed resistor. It states that the voltage across a conductor is directly proportional to the current flowing through it. As the flex sensor bends, its resistance increases, decreasing the current and, by extension, the voltage at the analogRead pin on the Arduino. This change in voltage, determined by the voltage divider formula (Vout= Vin (R2/R1+R2)) allows the Arduino to measure and read how much the flex sensor is bending.The voltage divider formula describes how the input voltage (Vin) is divided across two resistors in a series (R1 and R2) inorder to produce an output voltage (Vout). Therefore, Vout is a fraction of Vin determined by the ratio of R2 to the total resistance R1+R2. This principle allows for the reduction of a larger voltage to a smaller, controlled voltage. 
 
 Additionally, I added an LED light strip to the arduino. To code the LED light strip, I used the Adafruit NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. To initiate and update the NeoPixel object, I used object-oriented design to control the LED strip. Object-oriented programming (OOP) is a programming model that organizes software design around data and objects. As compared to structured programming, OOP follows a bottom-up approach which means that it starts with the most basic elements and builds them into larger subsystems, eventually forming a complete system. The four main concepts in OOP are encapsulation (provides security and obfuscates code), abstraction (hides complexity for simplicity), inheritance (uses other template features into a new child template), and polymorphism (when a child template function displays a different behavior). For controlling NeoPixel LED lights using OOP, I included classes to manage the LED light strip. These classes encapsulate the behavior and properties of the LEDs by providing functions to set colors and manage the strips. This approach also uses abstraction as it simplifies the control of LEDs by offering a structured and easy way to handle the LED operations. In my program, the LED strip turns red if the flex sensor bends (outputs a higher value), and it turns green if the flex sensor remains straight (outputs a lower value). This way, when the user sits on the yoga ball that has the flex sensor attached to it, they can see if their posture is good or bad depending on the color the LED strip displays.
@@ -54,7 +59,7 @@ Additionally, I added an LED light strip to the arduino. To code the LED light s
 
 <img src="LEDCircuit.png" width="500" height="250"> 
 
-**Figure 4** 
+**Figure 5** 
 This image shows a basic circuit setup with an Arduino Uno and a strip of WS2812B LEDs. Three wires connect the Arduino to the LED strip:
 1. The black wire goes from the GND pin on the Arduino to the GND pin on the LED strip.
 2. The pink wire goes from the 5V pin on the Arduino to the 5V pin on the LED strip.
@@ -184,7 +189,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 
 ![Headstone Image](Button_Switch_Basics.gif)
 
-**Figure 5**
+**Figure 6**
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current. On my starter project, when a button is pressed, the LED board lights up in the same manner.  
 
 ## Challenges Faced:

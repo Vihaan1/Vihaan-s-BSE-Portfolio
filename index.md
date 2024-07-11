@@ -109,14 +109,14 @@ void loop() {
   Serial.print("Sensor: ");
   Serial.println(flexValue);
 
-  if (flexValue > 80) {
-    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >80
+  if (flexValue > 100) {
+    setStripColor(strip.Color(0, 255, 0)); // Green if flex sensor value >100
     BTSerial.write(send);
     BTSerial.flush();  // Send "Bad" over Bluetooth
     Serial.print("0");
     Serial.println("0");
   } else {
-    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <=80
+    setStripColor(strip.Color(255, 0, 0)); // Red if flex sensor value <=100
     send = 1;
     BTSerial.write(send);
     BTSerial.flush(); // Send "Good" over Bluetooth

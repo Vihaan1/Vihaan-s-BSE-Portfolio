@@ -20,7 +20,7 @@ For my final mlestone, I added notifications to my app if the user's posture is 
 **Figure 1**
 The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
 
-<img src="PCAppUserInterface.png" width="250" height="500"> 
+<img src="PCAppUserInterface.png" width="200" height="400"> 
 
 **Figure 2**
 The image shows the user interface of my Posture Corrector App. The interface features a Bluetooth connectivity option, currently indicating "Not Connected". Below this, the posture status is displayed as "Unknown", suggesting that the app cannot determine the user's posture without a connected device. Additionally, there is a toggle switch for notifications, which is currently turned off. The app is designed to help users monitor and correct their posture through a connected Bluetooth device.

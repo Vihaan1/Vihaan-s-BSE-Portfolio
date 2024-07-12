@@ -23,7 +23,7 @@ I used a prototyping shield for my Arduino that provides a layout with various c
 <img src="BadPostureNotification.png" width="400" height="400"> 
 
 **Figure 2**
-This image shows the notification the user gets if their posture status is bad on my MIT App Inventor App. After they connect to the bluetooth, they will get to see their posture. If the user toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
+This image shows the notification the user gets if their posture status is bad on my MIT App Inventor App. After they connect to the bluetooth, they will get to see their posture status. If the user toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
 
 ## Challenges Faced
 I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I had to try again with a new proto shield. I learned to use masking tape this time so that the header pins wouldn't fall out or move around. On my second attempt, I was able to connect the proto shield onto the Arduino Uno. 

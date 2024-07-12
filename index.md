@@ -204,11 +204,11 @@ I did encounter several challenges while making this project. For example, on th
 
 # Works Cited 
 
-Figure 1: <a href="https://wiki.keyestudio.com/Ks0003_keyestudio_Protoshield_for_Arduino_with_Mini_Breadboard/"> Link </a> 
+Figure 1 (Protoshield for Arduino Diagram): <a href="https://wiki.keyestudio.com/Ks0003_keyestudio_Protoshield_for_Arduino_with_Mini_Breadboard/"> Link </a> 
 
-Figure 3: <a href="https://www.digikey.com/en/maker/projects/another-teaching-moment-through-hole-soldering-basics/be3bd0a005bd4df9927609d4ff4a7ab6"> Link </a> 
+Figure 3 (Good vs Bad Soldering): <a href="https://www.digikey.com/en/maker/projects/another-teaching-moment-through-hole-soldering-basics/be3bd0a005bd4df9927609d4ff4a7ab6"> Link </a> 
 
-Figure 4: <a href="https://forum.arduino.cc/t/arduino-leonardo-and-hc-05-bluetooth-module/1123060"> Link </a> 
+Figure 4 (HC-05 Bluetooth Module and Arduino Uno Schematic): <a href="https://forum.arduino.cc/t/arduino-leonardo-and-hc-05-bluetooth-module/1123060"> Link </a> 
 
 
 <!--# Other Resources/Examples

@@ -203,9 +203,11 @@ The diagram depicts a basic LED circuit with a battery, a switch, a resistor, an
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
 # Works Cited 
-**Figure 1-** https://wiki.keyestudio.com/Ks0003_keyestudio_Protoshield_for_Arduino_with_Mini_Breadboard
+|**Figure 1**| https://wiki.keyestudio.com/Ks0003_keyestudio_Protoshield_for_Arduino_with_Mini_Breadboard |
 
-**Figure 3-** https://www.digikey.com/en/maker/projects/another-teaching-moment-through-hole-soldering-basics/be3bd0a005bd4df9927609d4ff4a7ab6 
+|**Figure 3**|https://www.digikey.com/en/maker/projects/another-teaching-moment-through-hole-soldering-basics/be3bd0a005bd4df9927609d4ff4a7ab6 |
+
+|**Figure 4**| https://forum.arduino.cc/t/arduino-leonardo-and-hc-05-bluetooth-module/1123060 |
 
 
 

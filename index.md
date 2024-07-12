@@ -18,12 +18,14 @@ For my final milestone, I added notifications to my app if the user's posture is
 <img src="ProtoshieldArduino.png" width="500" height="250"> 
 
 **Figure 1**
-I used a prototyping shield for my Arduino that provides a layout with various components labeled for easy identification. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also ready-made traces connecting different through holes for easier and more efficient connections. In order to connect the proto shield to the Arduino, I soldered header pins onto the proto shield which connect to the following pins on the Arduino serving as an extension.  
+I used a prototyping shield for my Arduino that provides a layout with various components labeled for easy identification. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space. There are also ready-made traces connecting different through holes for easier and more efficient connections. In order to connect the proto shield to the Arduino, I soldered header pins on it which connect to the following pins on the Arduino. 
+
+If the user bends or slouches, the flex sensor will read this data and they will get a notification on their phone which you can see below:
 
 <img src="BadPostureNotification.png" width="400" height="400"> 
 
 **Figure 2**
-This image shows the notification the user gets if their posture status is bad on my MIT App Inventor App. After they connect to the bluetooth, they will get to see their posture status. If the user toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
+After the user connects to the bluetooth, they will get to see their posture status. If they choose toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
 
 ## Challenges Faced
 I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I had to try again with a new proto shield. I learned to use masking tape this time so that the header pins wouldn't fall out or move around. On my second attempt, I was able to connect the proto shield onto the Arduino Uno. 
@@ -31,7 +33,7 @@ I faced several challenges while working on my final milestone. One of the chall
 <img src="GoodvsBadSoldering.png" width="400" height="200"> 
 
 **Figure 3**
-Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I used didn’t have a pointy tip and wasn’t getting that hot, so as a result, the solder wasn't going deep enough in the hole. As you can see on the diagram above, my soldering looked like the models on the right side. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
+Another challenge I faced was that the circuit wasn't working and the flex sensor values were extremely inconsistent even though I soldered all the wires onto the proto shield. As you can see on the diagram above, my soldering looked like the examples on the right side. I was either putting too little solder, too much solder, or was accidentally bridging two holes together. I realized that the soldering iron I used didn’t have a pointy tip and wasn’t getting that hot. As a result, I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
 
 
 # Second Milestone
@@ -200,7 +202,9 @@ The diagram depicts a basic LED circuit with a battery, a switch, a resistor, an
 ## Challenges Faced:
 I did encounter several challenges while making this project. For example, on the second day, I had trouble soldering some of the holes in my circuit board. I put the score board in, but as I was soldereding, the score board fell out. As a result, I had 4 holes that were soldered with nothing in the holes. This led to a frustrating hour trying to desolder this. Eventually, I managed to get most of the saughter out with saugher wick and I was able to reinsert the score board in. After this, I learned to tape the components on the circuit board so that they wouldn't fall out. Not only did this make soldering my other components in the circuit board much easier, but it also made soldering a lot faster and efficient.  
 
-<!--- # Other Resources/Examples
+# Works Cited 
+
+<!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)

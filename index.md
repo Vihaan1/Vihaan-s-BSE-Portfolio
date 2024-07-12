@@ -28,7 +28,7 @@ The image shows the user interface of my Posture Corrector App. The interface fe
 ## Challenges Faced
 I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I added a new proto shield and I resoldered the header pins. I learned to use masking tape this time so that the header pins wouldn't fall out or move around. It worked the next time, and I was able to connect the proto shield onto the Arduino Uno. 
 
-<img src="GoodvsBadSoldering.png" width="200" height="400"> 
+<img src="GoodvsBadSoldering.png" width="400" height="200"> 
 
 **Figure 3**
 Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I was using while soldering the wires wasn't good, so as a result, the solder wasn't going deep enough in the hole. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 

@@ -13,25 +13,25 @@ My main project is a posture corrector that notifies the user on the mobile phon
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMdjlEfUCmo?si=qPSNrd0Y0l9mP5I-&amp;start=0&amp;end=82;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ## Summary
-For my final mlestone, I added notifications to my app if the user's posture is bad. To accomplish this, I first downloaded a notification extension on MIT App Inventor. Then, I added code that displays the notification "Bad Posture Detected" on the user's phone if it detects bad posture. Additionally, I also soldered all of my components (solid wires, a resistor, HC-05 bluetooth module, etc) to a protoshield from a breadboard to make my project more permanent and secure. 
+For my final milestone, I added notifications to my app if the user's posture is bad. To accomplish this, I first downloaded a notification extension on MIT App Inventor called ‘NotificationStyle1’. Then, I added code that displays the notification "Bad Posture Detected" on the user's phone if it detects bad posture. Additionally, I also soldered all of my components (solid wires, a resistor, HC-05 bluetooth module, etc) to a protoshield from a breadboard to make my project portable. 
 
 <img src="ProtoshieldArduino.png" width="500" height="250"> 
 
 **Figure 1**
-The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
+I used a prototyping shield for my Arduino that provides a layout with various components labeled for easy identification. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also ready-made traces connecting different through holes for easier and more efficient connections. In order to connect the proto shield to the Arduino, I soldered header pins onto the proto shield which connect to the following pins on the Arduino serving as an extension.  
 
 <img src="BadPostureNotification.png" width="400" height="400"> 
 
 **Figure 2**
-The image shows the user interface of my Posture Corrector App. The interface features a Bluetooth connectivity option, currently indicating "Not Connected". Below this, the posture status is displayed as "Unknown", suggesting that the app cannot determine the user's posture without a connected device. Additionally, there is a toggle switch for notifications, which is currently turned off. The app is designed to help users monitor and correct their posture through a connected Bluetooth device.
+This image shows the notification the user gets if their posture status is bad on my MIT App Inventor App. After they connect to the bluetooth, they will get to see their posture. If the user toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
 
 ## Challenges Faced
-I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I added a new proto shield and I resoldered the header pins. I learned to use masking tape this time so that the header pins wouldn't fall out or move around. It worked the next time, and I was able to connect the proto shield onto the Arduino Uno. 
+I faced several challenges while working on my final milestone. One of the challenges I faced while working on my project was soldering all of my components onto the proto shield from a breadboard. Initially, on my first attempt, I misaligned the header pins when soldering, so the proto shield wasn't able to connect to the arduino. As a result, I had to try again with a new proto shield. I learned to use masking tape this time so that the header pins wouldn't fall out or move around. On my second attempt, I was able to connect the proto shield onto the Arduino Uno. 
 
 <img src="GoodvsBadSoldering.png" width="400" height="200"> 
 
 **Figure 3**
-Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I was using while soldering the wires wasn't good, so as a result, the solder wasn't going deep enough in the hole. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
+Another challenge I faced was that even though I soldered all the wires onto the proto shield, the circuit wasn't working and the flex sensor values were extremely inconsistent. I realized that the soldering iron I used didn’t have a pointy tip and wasn’t getting that hot, so as a result, the solder wasn't going deep enough in the hole. As you can see on the diagram above, my soldering looked like the models on the right side. I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
 
 
 # Second Milestone

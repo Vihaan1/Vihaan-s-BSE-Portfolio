@@ -20,7 +20,7 @@ For my final mlestone, I added notifications to my app if the user's posture is 
 **Figure 1**
 The proto shield for Arduino provides a layout with various components labeled for easy identification. It includes a reset button, digital input/output pins, 5V and 3.3V power outputs, multiple ground (GND) connections, and analog input ports (A0-A5). There are also external power input (DC 7-12V) and reset pins, as well as PCB through-holes for soldering additional components. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space.
 
-<img src="BadPostureNotification.png" width="200" height="400"> 
+<img src="BadPostureNotification.png" width="400" height="400"> 
 
 **Figure 2**
 The image shows the user interface of my Posture Corrector App. The interface features a Bluetooth connectivity option, currently indicating "Not Connected". Below this, the posture status is displayed as "Unknown", suggesting that the app cannot determine the user's posture without a connected device. Additionally, there is a toggle switch for notifications, which is currently turned off. The app is designed to help users monitor and correct their posture through a connected Bluetooth device.
@@ -35,7 +35,7 @@ I faced several challenges while working on my final milestone. One of the chall
 ## Summary
 For my second milestone, I used bluetooth to connect the arduino to my phone. I then made an app on MIT App Inventor that displays if the user's posture is good or bad on the user interface. The bluetooth module sends data from the arduino to the app wirelessly. In order for the app to update in real time, the data needs to be transmitted from the arduino to the app quickly. To do this, I wrote my code so that it sends one byte at a time in order for the app to update in real time. The 'Serial.write' function sends 1 or 0 in a byte form based on the flex sensor value, then 'Serial.flush', which is the next line in the code, forces that byte to be sent right away. On the MIT app inventor, it reads the byte as either a 0 or 1. The 0 indicates that the user is in a good posture and the 1 indicates that the user is in bad posture.  This allows the data to be received from the phone quickly and accurately.
 
-<img src="HC-05BluetoothModuleSchematic.jpg" width="400" height="550"> 
+<img src="HC-05BluetoothModuleSchematic.jpg" width="400" height="250"> 
 
 **Figure 3**
 The diagram illustrates how to connect an HC-05 Bluetooth module to an Arduino Uno. Specifically, the HC-05's VCC pin connects to the Arduino's 5V pin for power, the GND pin to the Arduino's GND, the TXD (transmit) pin to the Arduino's RX (digital pin 0) for sending data from the HC-05 to the Arduino, and the RXD (receive) pin to the Arduino's TX (digital pin 1) for sending data from the Arduino to the HC-05. This configuration enables Bluetooth communication between the Arduino and other devices.

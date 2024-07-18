@@ -9,6 +9,12 @@ My main project is a posture corrector that notifies the user on the mobile phon
 
 <!--- ![Headstone Image](VihaanHeadshot.png) -->
 <img src="VihaanHeadshot.png" width="500" height="500"> 
+
+# Modifications
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z_qOEBJw7Ik?si=lPily4dbbrE8WJUR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Summary
+For modifications, I sewed all my components onto an old jacket I brought from home. 
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KMdjlEfUCmo?si=qPSNrd0Y0l9mP5I-&amp;start=0&amp;end=82;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

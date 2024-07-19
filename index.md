@@ -16,7 +16,6 @@ My main project is a posture corrector that notifies the user on the mobile phon
 ## Summary
 For modifications, I made the posture corrector portable and I attached all of my components onto a jacket I bought from home. I taped the flex sensor onto the jacket and I sewed on the Arduino and a pouch for the battery using fabric. Lastly, I used the adhesive on the back of LED lights to stick them onto the jacket. When I plug the battery into the Arduino, the lights turn on and the app displays the user's posture status as well. 
 
-
 ## Challenges Faced
 One of the biggest challenges that I faced while working on this project was sewing my Arduino onto the jacket. I had never sewed before, so I had to learn how to sew using several YouTube videos. Even after this, when I sewed my Arduino to the jacket, the strings kept on snapping when I lifted the jacket up due to the weight of the Arduino. As a result, I had to resew the Arduino several times onto the jacket to make sure that it was sturdy and wouldn't fall out when I wore the jacket. 
   
@@ -176,6 +175,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Android | Used to control the app and receive notifications | $159.99 | <a href="https://www.amazon.com/dp/B09MZBTMQQ/ref=twister_B0BTCN5QXV?_encoding=UTF8&psc=1"> Link </a> | 
 | Bluetooth Terminal | Used to send data wirelessly to app | $9.99 | <a href="https://www.amazon.com/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6/ref=sr_1_3?crid=1YJUU51AP8LFK&keywords=hc05+bluetooth+module+for+arduino&qid=1688745485&sprefix=HC05+blueetoo%2Caps%2C158&sr=8-3"> Link </a> | 
 | Jacket | Used for my modification where I attached all my components to it | $18.50 | <a href="https://www.ebay.com/itm/385518716838"> Link </a> |
+| Water Block Tape | Strong tape used for attaching flex sensor to jacket | $4.29 | <a href="https://www.amazon.com/Band-Aid-Tape-WP-Count/dp/B01MDT6OSK?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER"> Link </a> |  
 
 # Starter Project: Retro Arcade Console
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RREYq2UIQs?si=D5jkpsL6lmQbcA0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 

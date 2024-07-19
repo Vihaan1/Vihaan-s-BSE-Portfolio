@@ -22,7 +22,7 @@ For modifications, I made the posture corrector portable and I attached all of m
 <img src="BlueStampPCDiagram.png" width="500" height="400"> 
 
 **Figure 1**
-This diagram depicts what happens if the user is standing straight versus if they are slouching. 
+This diagram depicts what happens if the user is standing straight versus if they are slouching. On the left side, there is a drawing of a person standing up straight. When the user is standing straight, the flex sensor is also straight which means that the LED lights turn green and it says "Posture Status: Good" on the app I created. On the right side, there is a drawing of a person slouching. As a result, the LED lights turn red and it says "Posture Status: Bad" on the app that I created. Additionally, this updates in real time so the user knows their posture status almost instantly. 
 
 ## Challenges Faced
 One of the biggest challenges that I faced while working on this project was sewing my Arduino onto the jacket. I had never sewed before, so I had to learn how to sew using several YouTube videos. Even after this, when I sewed my Arduino to the jacket, the strings kept on snapping when I lifted the jacket up due to the weight of the Arduino. As a result, I had to resew the Arduino several times onto the jacket to make sure that it was sturdy and wouldn't fall out when I wore the jacket. 

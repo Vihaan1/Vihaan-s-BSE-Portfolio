@@ -175,6 +175,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 10K Ohms Resistor |Used to generate values for the flex sensor | $0.75 | <a href="https://www.adafruit.com/product/2784"> Link </a> | 
 | Android | Used to control the app and receive notifications | $159.99 | <a href="https://www.amazon.com/dp/B09MZBTMQQ/ref=twister_B0BTCN5QXV?_encoding=UTF8&psc=1"> Link </a> | 
 | Bluetooth Terminal | Used to send data wirelessly to app | $9.99 | <a href="https://www.amazon.com/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6/ref=sr_1_3?crid=1YJUU51AP8LFK&keywords=hc05+bluetooth+module+for+arduino&qid=1688745485&sprefix=HC05+blueetoo%2Caps%2C158&sr=8-3"> Link </a> | 
+| Jacket | Used for my modification where I attached all my components to it | $18.50 | <a href="https://www.ebay.com/itm/385518716838"> Link </a> |
 
 # Starter Project: Retro Arcade Console
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3RREYq2UIQs?si=D5jkpsL6lmQbcA0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 

@@ -8,7 +8,7 @@ My main project is a posture corrector that notifies the user on the mobile phon
 | Vihaan D | Irvington High School | Mechanical Engineering | Incoming Sophomore
 
 <!--- ![Headstone Image](VihaanHeadshot.png) -->
-<img src="IMG_3262.jpg" width="150" height="500"> 
+<img src="IMG_3262.jpg" width="250" height="500"> 
 
 # Demo Night
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fbl_N0_3UHI?si=z3aXY3lU-Zi0L-ZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

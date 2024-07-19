@@ -1,5 +1,5 @@
 # Posture Corrector
-My main project is a posture corrector that notifies the user on the mobile phone if they are sitting in a bad posture. The user will sit on a deflated yoga ball with a flex sensor that tracks if they are slouching or in a bad posture based on the pressure the user exerts on the sensor. If the user applies a lot of pressure on the sensor, the LED strip will light up and the user will also get a phone notification to fix their posture. 
+My main project is a posture corrector that notifies the user on the mobile phone if they are sitting in a bad posture. The original concept was that the user would sit on a deflated yoga ball with a flex sensor that tracks if they are slouching or in a bad posture based on the pressure the user exerts on the sensor. I modified this by attaching all of my components onto a jacket to make the posture corrector portable. If the user slouches, the LED strip will light up and the user will also get a phone notification to fix their posture. 
 
 <!--- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! --> 
 
@@ -14,7 +14,8 @@ My main project is a posture corrector that notifies the user on the mobile phon
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z_qOEBJw7Ik?si=lPily4dbbrE8WJUR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Summary
-For modifications, I made the posture corrector portable and I attached all of my components onto a jacket I brought form home. I taped the flex sensor onto the jacket and I sewed on the Arduino and a pouch for the battery using fabric. Lastly, I used the adhesive on the back of LED lights to stick them onto the jacket. When I plug the battery into the Arduino, the lights turn on and the app displays the user's posture status as well. 
+For modifications, I made the posture corrector portable and I attached all of my components onto a jacket I bought from home. I taped the flex sensor onto the jacket and I sewed on the Arduino and a pouch for the battery using fabric. Lastly, I used the adhesive on the back of LED lights to stick them onto the jacket. When I plug the battery into the Arduino, the lights turn on and the app displays the user's posture status as well. 
+
 
 ## Challenges Faced
 One of the biggest challenges that I faced while working on this project was sewing my Arduino onto the jacket. I had never sewed before, so I had to learn how to sew using several YouTube videos. Even after this, when I sewed my Arduino to the jacket, the strings kept on snapping when I lifted the jacket up due to the weight of the Arduino. As a result, I had to resew the Arduino several times onto the jacket to make sure that it was sturdy and wouldn't fall out when I wore the jacket. 

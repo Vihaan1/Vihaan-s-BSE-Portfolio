@@ -13,6 +13,11 @@ My main project is a posture corrector that notifies the user on the mobile phon
 # Modifications
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z_qOEBJw7Ik?si=lPily4dbbrE8WJUR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<img src="Bluestamp Diagram.png" width="500" height="500"> 
+
+**Figure 1**
+This diagram depicts what happens if the user is standing straight versus if they are slouching. 
+
 ## Summary
 For modifications, I made the posture corrector portable and I attached all of my components onto a jacket I bought from home. I taped the flex sensor onto the jacket and I sewed on the Arduino and a pouch for the battery using fabric. Lastly, I used the adhesive on the back of LED lights to stick them onto the jacket. When I plug the battery into the Arduino, the lights turn on and the app displays the user's posture status as well. 
 

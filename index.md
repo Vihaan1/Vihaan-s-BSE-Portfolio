@@ -16,7 +16,7 @@ My main project is a posture corrector that notifies the user on the mobile phon
 ## Summary
 For modifications, I made the posture corrector portable and I attached all of my components onto a jacket I bought from home. I taped the flex sensor onto the jacket and I sewed on the Arduino and a pouch for the battery using fabric. Lastly, I used the adhesive on the back of LED lights to stick them onto the jacket. When I plug the battery into the Arduino, the lights turn on and the app displays the user's posture status as well. 
 
-<img src="Bluestamp Diagram.png" width="500" height="400"> 
+<img src="BlueStampPCDiagram.png" width="500" height="400"> 
 
 **Figure 1**
 This diagram depicts what happens if the user is standing straight versus if they are slouching. 
@@ -31,14 +31,14 @@ For my final milestone, I added notifications to my app if the user's posture is
 
 <img src="ProtoshieldArduino.png" width="500" height="250"> 
 
-**Figure 1**
+**Figure 2**
 I used a prototyping shield for my Arduino that provides a layout with various components labeled for easy identification. This prototyping shield is designed to expand the functionality of an Arduino board by offering additional connections and soldering space. There are also ready-made traces connecting different through holes for easier and more efficient connections. In order to connect the proto shield to the Arduino, I soldered header pins on it which connect to the following pins on the Arduino. 
 
 If the user bends or slouches, the flex sensor will read this data and they will get a notification on their phone which you can see below:
 
 <img src="BadPostureNotification.png" width="400" height="400"> 
 
-**Figure 2**
+**Figure 3**
 After the user connects to the bluetooth, they will get to see their posture status. If they choose toggle’s the notification switch on and their posture is “bad”, they will also get a notification on their phone telling them to fix their posture. This way even if they don’t have their app open, they will still get to know if their posture is bad. 
 
 ## Challenges Faced
@@ -46,7 +46,7 @@ I faced several challenges while working on my final milestone. One of the chall
 
 <img src="GoodvsBadSoldering.png" width="400" height="200"> 
 
-**Figure 3**
+**Figure 4**
 Another challenge I faced was that the circuit wasn't working and the flex sensor values were extremely inconsistent even though I soldered all the wires onto the proto shield. As you can see on the diagram above, my soldering looked like the examples on the right side. I was either putting too little solder, too much solder, or was accidentally bridging two holes together. I realized that the soldering iron I used didn’t have a pointy tip and wasn’t getting that hot. As a result, I switched to a better soldering iron, and I eventually got the circuit to work successfully. 
 
 
@@ -58,7 +58,7 @@ For my second milestone, I used bluetooth to connect the arduino to my phone. I 
 
 <img src="HC-05BluetoothModuleSchematic.jpg" width="400" height="250"> 
 
-**Figure 4**
+**Figure 5**
 The diagram illustrates how to connect an HC-05 Bluetooth module to an Arduino Uno. Specifically, the HC-05's VCC pin connects to the Arduino's 5V pin for power, the GND pin to the Arduino's GND, the TXD (transmit) pin to the Arduino's RX (digital pin 0) for sending data from the HC-05 to the Arduino, and the RXD (receive) pin to the Arduino's TX (digital pin 1) for sending data from the Arduino to the HC-05. This configuration enables Bluetooth communication between the Arduino and other devices.
 
 ## Challenges Faced
@@ -72,7 +72,7 @@ My main project is the posture corrector. For my first milestone, I worked on at
 
 <img src="Voltage_Divider_Diagram2.png" width="500" height="250"> 
 
-**Figure 5** 
+**Figure 6** 
 To connect the flex sensor to the Arduino, I created a voltage divider circuit with a flex sensor and a fixed resistor. The flex sensor is a type of resistor that changes its resistance based on how much it is bent. Flex sensors are often made of conductive rubbery strips between two metal plates, so when the sensor is unbent, the rubbery strip is thick and solid, so it conducts little current between the plates. On the other hand, when the sensor is bent, the strip spreads out and allows more current to pass through, which is detected and fed back to the system to indicate the amount of flex. One end of the flex sensor is connected to the 5v pin on the Arduino and the point between these two resistors is connected to the analog input pin on the Arduino. Ohm's Law (V = IR) helps calculate the current through the circuit and the voltage of the fixed resistor. It states that the voltage across a conductor is directly proportional to the current flowing through it. As the flex sensor bends, its resistance increases, decreasing the current and, by extension, the voltage at the analogRead pin on the Arduino. This change in voltage, determined by the voltage divider formula (Vout= Vin (R2/R1+R2)) allows the Arduino to measure and read how much the flex sensor is bending.The voltage divider formula describes how the input voltage (Vin) is divided across two resistors in a series (R1 and R2) inorder to produce an output voltage (Vout). Therefore, Vout is a fraction of Vin determined by the ratio of R2 to the total resistance R1+R2. This principle allows for the reduction of a larger voltage to a smaller, controlled voltage. 
 
 Additionally, I added an LED light strip to the arduino. To code the LED light strip, I used the Adafruit NeoPixel library and added a feature that changes the LED strip color depending on the value of the flex sensor. To initiate and update the NeoPixel object, I used object-oriented design to control the LED strip. Object-oriented programming (OOP) is a programming model that organizes software design around data and objects. As compared to structured programming, OOP follows a bottom-up approach which means that it starts with the most basic elements and builds them into larger subsystems, eventually forming a complete system. The four main concepts in OOP are encapsulation (provides security and obfuscates code), abstraction (hides complexity for simplicity), inheritance (uses other template features into a new child template), and polymorphism (when a child template function displays a different behavior). For controlling NeoPixel LED lights using OOP, I included classes to manage the LED light strip. These classes encapsulate the behavior and properties of the LEDs by providing functions to set colors and manage the strips. This approach also uses abstraction as it simplifies the control of LEDs by offering a structured and easy way to handle the LED operations. In my program, the LED strip turns red if the flex sensor bends (outputs a higher value), and it turns green if the flex sensor remains straight (outputs a lower value). This way, when the user sits on the yoga ball that has the flex sensor attached to it, they can see if their posture is good or bad depending on the color the LED strip displays.
@@ -80,7 +80,7 @@ Additionally, I added an LED light strip to the arduino. To code the LED light s
 
 <img src="LEDCircuit.png" width="500" height="250"> 
 
-**Figure 6** 
+**Figure 7** 
 This image shows a basic circuit setup with an Arduino Uno and a strip of WS2812B LEDs. Three wires connect the Arduino to the LED strip:
 1. The black wire goes from the GND pin on the Arduino to the GND pin on the LED strip.
 2. The pink wire goes from the 5V pin on the Arduino to the 5V pin on the LED strip.
@@ -212,7 +212,7 @@ The digitron display or the 7-segement display is used on my Retro Arcade Consol
 
 ![Headstone Image](Button_Switch_Basics.gif)
 
-**Figure 7**
+**Figure 8**
 The diagram depicts a basic LED circuit with a battery, a switch, a resistor, and an LED. The battery provides power, the switch controls the circuit's open or closed state, the resistor limits current to protect the LED, and the LED emits light when the circuit is closed. When the switch is open, the circuit is incomplete and the LED is off. Closing the switch completes the circuit, allowing current to flow and the LED to light up. The resistor ensures the LED receives a safe amount of current. On my starter project, when a button is pressed, the LED board lights up in the same manner.  
 
 ## Challenges Faced:
